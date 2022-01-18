@@ -1,189 +1,129 @@
-export const featuredPortfolio = [
+export const featured = [
+  {
+    id: 1,
+    title: "React Portfolio",
+    url: "https://github.com/onurborakman/onurboraakman",
+    img: "https://qph.fs.quoracdn.net/main-qimg-c74778d67b3c3d3419cf86b755b32b06"
+  },
+  {
+    id: 2,
+    title: "Laravel Larawell",
+    url: "https://github.com/onurborakman/laravel-larawell",
+    img: "https://laravelnews.imgix.net/images/laravel-featured.png?ixlib=php-3.3.1"
+  },
+  {
+    id: 3,
+    title: "Laravel Share Tell Joke",
+    url: "https://github.com/onurborakman/laravel-sharetelljoke",
+    img: "https://laravelnews.imgix.net/images/laravel-featured.png?ixlib=php-3.3.1"
+  }
+  ];
+
+  export const desktop = [
     {
       id: 1,
-      title: "Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+      title: "C# Inventory Management",
+      url: "https://github.com/onurborakman/portfolio/blob/master/Inventory%20Manager.zip",
+      img: "https://images.ctfassets.net/23aumh6u8s0i/1IKVNqiLhNURzZXp652sEu/4379cfba19f0e19873af6074d3017f70/csharp"
     },
     {
       id: 2,
-      title: "Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+      title: "C# Minesweeper Console App",
+      url: "https://github.com/onurborakman/library/tree/master/C%23/C%23-MinesweeperConsoleApplication",
+      img: "https://images.ctfassets.net/23aumh6u8s0i/1IKVNqiLhNURzZXp652sEu/4379cfba19f0e19873af6074d3017f70/csharp"
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      title: "C# Minesweeper GUI App",
+      url: "https://github.com/onurborakman/library/tree/master/C%23/C%23-MinesweeperGUIApplication",
+      img: "https://images.ctfassets.net/23aumh6u8s0i/1IKVNqiLhNURzZXp652sEu/4379cfba19f0e19873af6074d3017f70/csharp"
+    }
+  ]
+
+  export const web = [
+    {
+      id: 1,
+      title: "JavaScript Budgety",
+      url: "https://github.com/onurborakman/portfolio/tree/master/Budgety",
+      img: "https://mpng.subpng.com/20180720/pjj/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b16dbcd8.5939232615320700654495.jpg"
+    },
+    {
+      id: 2,
+      title: "JavaScript Forkify",
+      url: "https://github.com/onurborakman/portfolio/tree/master/Forkify",
+      img: "https://mpng.subpng.com/20180720/pjj/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b16dbcd8.5939232615320700654495.jpg"
+    },
+    
+    {
+      id: 3,
+      title: "React Music App",
+      url: "https://github.com/onurborakman/cst391-react",
+      img: "https://qph.fs.quoracdn.net/main-qimg-c74778d67b3c3d3419cf86b755b32b06"
     },
     {
       id: 4,
-      title: "Relax Mobile App",
-      img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+      title: "Angular Music App",
+      url: "https://github.com/onurborakman/cst391-angular",
+      img: "https://repository-images.githubusercontent.com/24195339/87018c00-694b-11e9-8b5f-c34826306d36"
     },
     {
       id: 5,
-      title: "Hero Web Design",
-      img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "ASP.NET MinesweeperX",
+      url: "https://github.com/onurborakman/MinesweeperX",
+      img: "https://deerwalkcompware.com/training/uploads/courses/%20Programming%20in%20Dot%20Net.jpg"
     },
     {
       id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+      title: "ASP.NET Bible Verse App",
+      url: "https://github.com/onurborakman/BibleVerseApp",
+      img: "https://deerwalkcompware.com/training/uploads/courses/%20Programming%20in%20Dot%20Net.jpg"
+    }
+  ]
+
+  export const design = [
+    {
+      id: 1,
+      title: "CSS3 Museum of Candy",
+      url: "https://github.com/onurborakman/portfolio/tree/master/Museum%20of%20Candy",
+      img: "https://allvectorlogo.com/img/2016/04/css3-logo.png"
     },
-  ];
+    {
+      id: 2,
+      title: "CSS3 Price Table",
+      url: "https://github.com/onurborakman/portfolio/tree/master/Price%20Table",
+      img: "https://allvectorlogo.com/img/2016/04/css3-logo.png"
+    },
+    {
+      id: 3,
+      title: "CSS3 Price Table 2",
+      url: "https://github.com/onurborakman/portfolio/tree/master/UIDesign",
+      img: "https://allvectorlogo.com/img/2016/04/css3-logo.png"
+    }
+  ]
+
+  export const game = [
+    {
+      id: 1,
+      title: "Unity Number Wizard",
+      url: "https://github.com/onurborakman/portfolio/tree/master/Number%20Wizard",
+      img: "https://e7.pngegg.com/pngimages/907/39/png-clipart-unity-technologies-game-engine-video-game-developer-unity-game-angle.png"
+    }
+  ]
+
+  export const api = [
+    {
+      id: 1,
+      title: "Express Music API",
+      url: "https://github.com/onurborakman/cst-391/tree/main/Express%20JS/projectExpress",
+      img: "https://banner2.cleanpng.com/20180614/aut/kisspng-node-js-express-js-javascript-solution-stack-web-a-5b22b9d544a3c5.7437956215290024532812.jpg"
+    },
+    {
+      id: 2,
+      title: "Spring Boot Music API",
+      url: "https://github.com/onurborakman/cst-391/tree/main/Spring%20Boot/SPRING",
+      img: "https://image.pngaaa.com/552/2459552-middle.png"
+    }
+  ]
   
-  export const webPortfolio = [
-    {
-      id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Web E-commerce Design",
-      img: "https://cdn.dribbble.com/users/3637068/screenshots/15467010/media/69a3279182b75365013fe285733d1122.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Web Relax App",
-      img: "https://cdn.dribbble.com/users/2264844/screenshots/15463998/media/d85e92a332c41094f68e1f716884f7ce.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Web Design",
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Web Banking App",
-      img: "https://cdn.dribbble.com/users/6384483/screenshots/15468426/media/ce9479fa1f8dba3a4a49840d76e55e31.png?compress=1&resize=1200x900",
-    },
-  ];
   
-  export const mobilePortfolio = [
-    {
-      id: 1,
-      title: "Mobile Social Media App",
-      img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
-    },
-    {
-      id: 2,
-      title: "Mobile Rampa UI Design",
-      img:
-        "https://cdn.dribbble.com/users/5920881/screenshots/15463142/media/b5a460223798bd85d835710806e2f3dd.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 3,
-      title: "Mobile E-commerce Design",
-      img:
-        "https://cdn.dribbble.com/users/1998175/screenshots/15459384/media/48ac2b43ebe81ba0866afea1383cc939.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 4,
-      title: "Mobile Relax App",
-      img:
-        "https://cdn.dribbble.com/users/2083704/screenshots/15468619/media/cd958306c7a772449e1ac23bd65ce506.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 5,
-      title: "Mobile Hero Design",
-      img:
-        "https://cdn.dribbble.com/users/26642/screenshots/15462545/media/1a202ef5c8338b6f78634e6edc1ba350.png?compress=1&resize=1200x900",
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-    },
-  ];
-  
-  export const designPortfolio = [
-    {
-      id: 1,
-      title: "Design Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Design Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Design Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Design Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Design Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
-  
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
   

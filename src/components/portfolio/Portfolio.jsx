@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
-import {featuredPortfolio, webPortfolio, mobilePortfolio, designPortfolio, contentPortfolio} from '../data';
+import {featured, web, desktop, design, game, api} from '../data';
 
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
@@ -13,41 +13,48 @@ export default function Portfolio() {
         },
         {
             id: "web",
-            title: "Web App"
+            title: "Web Apps"
         },
         {
-            id: "mobile",
-            title: "Mobile App"
+            id: "desktop",
+            title: "Desktop Apps"
         },
         {
             id: "design",
-            title: "Design"
+            title: "Designs"
         },
         {
-            id: "content",
-            title: "Content"
+            id: "api",
+            title: "APIs"
+        },
+        {
+            id: "game",
+            title: "Games"
         }
     ];
 
     useEffect(()=>{
         switch(selected){
             case "featured":
-                setData(featuredPortfolio);
+                setData(featured);
                 break;
             case "web":
-                setData(webPortfolio);
+                setData(web);
                 break;
-            case "mobile":
-                setData(mobilePortfolio);
+            case "desktop":
+                setData(desktop);
                 break;
             case "design":
-                setData(designPortfolio);
+                setData(design);
                 break;
-            case "content":
-                setData(contentPortfolio);
+            case "api":
+                setData(api);
+                break;
+            case "game":
+                setData(game);
                 break;
             default:
-                setData(featuredPortfolio);
+                setData(featured);
             
         }
     },[selected]);
@@ -63,8 +70,10 @@ export default function Portfolio() {
             <div className='container'>
                 {data.map(d=>(
                     <div className='item'>
-                        <img src={d.img} alt=""/>
+
+                        <a href={d.url}><img src={d.img} alt=""/></a>
                         <h3>{d.title}</h3>
+                        
                     </div>
                 ))}
             </div>
