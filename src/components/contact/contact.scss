@@ -3,23 +3,30 @@
 .contact{
     background-color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
     @include mobile{
         flex-direction: column;
     }
-
-    .left{
-        flex:1;
+    .background{
+        position: absolute;
+        opacity: 0.5;
+        background-image: url("https://images.unsplash.com/photo-1423768164017-3f27c066407f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         overflow: hidden;
-
-        img{
-            height: 100%;
-            width: 100%;
-        }
     }
 
-    .right{
-        flex:1;
+    .content{
+        z-index: 1;
+
         display: flex;
         flex-direction: column;
         align-items: center;

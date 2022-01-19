@@ -100,8 +100,18 @@
                     }
                 }
             }
+            a{
+                font-size: 25px;
+                text-decoration: none;
+                color: #CF202A;
+                margin-top: 10px;
+
+                @include mobile{
+                    font-size: 15px;
+                }
+            }
         }
-        a{
+        #down-arrow{
             position: absolute;
             bottom: 10px;
             left: 40%;

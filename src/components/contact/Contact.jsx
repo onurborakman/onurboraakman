@@ -5,11 +5,11 @@ export default function Contact() {
 
     return(
         <div className='contact' id='contact'>
-            <div className='left'>
-                <img src='assets/handshake.png' alt=''/>
+            <div className="background">
+                <img src="" alt=""/>
             </div>
-            <div className='right'>
-                <h2>Contact</h2>
+            <div className="content">
+            <h2>Contact</h2>
                 <ul>
                     <li>
                         <Phone className="icon"/>
@@ -29,6 +29,7 @@ export default function Contact() {
                     </li>
                 </ul>
             </div>
-        </div>
+                
+            </div>
     )
 }
