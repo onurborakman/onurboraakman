@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import './frameworks.scss';
 
-export default function Works() {
+export default function Frameworks() {
 
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [

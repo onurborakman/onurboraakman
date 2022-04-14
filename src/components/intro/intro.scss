@@ -7,11 +7,11 @@
     display: flex;
 
     @include mobile{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
-    .left{
+    .right{
         flex: 0.5;
         overflow:hidden;
         display: flex;
@@ -28,6 +28,7 @@
             align-items: flex-end;
             justify-content: center;
             float: right;
+            margin-right: 15px;
 
             @include mobile{
                 align-items: flex-end;
@@ -46,7 +47,7 @@
         }
     }
 
-    .right{
+    .left{
         flex: 0.5;
         position: relative;
 

@@ -4,6 +4,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Frameworks from './components/frameworks/Frameworks';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
+import Gameable from './components/gameable/Gameable';
 
 import {useState} from 'react';
 
@@ -17,6 +18,7 @@ function App(){
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className='sections'>
                 <Intro/>
+                <Gameable/>
                 <Portfolio/>
                 <Frameworks/>
                 <Contact/>

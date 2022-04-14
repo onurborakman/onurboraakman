@@ -1,0 +1,157 @@
+@import "../../global.scss";
+
+.gameable{
+    background-color: $mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        position: absolute;
+        top: 25px;
+        color: white;
+    }
+
+    .general-information{
+        width: 30vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        margin-left: 25px;
+
+        @include mobile{
+            width: 100vw;
+            flex-direction: row;
+            padding: 10%;
+            padding-bottom: 0;
+
+            h2{
+                display: none;
+            }
+        }
+
+        h4{
+            margin-bottom: 15px;
+        }
+
+        ul{
+            list-style-position: inside;
+            list-style-type: square;
+            padding-left: 0;
+            
+            li{
+                margin-bottom: 10px;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            border: 2px solid transparent;
+            transition: all 1s ease;
+
+            &:hover{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+
+    .detailed-information{
+        width: 70vw;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: orangered;
+        border-radius: 25px;
+        margin-right: 25px;
+
+        @include mobile{
+            width: 100vw;
+            margin-right: 0;
+            border-radius: 0;
+        }
+
+        .arrow{
+                height: 50px;
+                cursor: pointer;
+                flex: 0.1;
+                z-index: 5;
+
+                @include mobile{
+                    flex: 0.2;
+                    height: 40px;
+    
+                }
+
+                &.left{
+                    left: 100px;
+                    transform: rotateY(180deg);
+                    margin-left: 50px;
+                }
+
+                &.right{
+                    right: 100px;
+                    margin-right: 50px;
+                }
+        }
+
+        .slider{
+            flex: 0.8;
+            min-width: 40vw;
+            max-width: 40vw;
+            display: flex;
+            overflow: hidden;
+            color: white;
+
+            @include mobile{
+                flex: 0.6;
+            }
+
+            .container{
+                min-width: 40vw;
+                max-width: 40vw;
+                min-height: 100%;
+                transition: all 1s ease-in-out;
+
+                .item{
+                    min-width: 40vw;
+                    display: flex;
+                    flex-direction: column;
+                    
+
+                        @include mobile{
+                            font-size: smaller;
+                        }
+
+                    .title{
+                        font-weight: bold;
+                        color: black;
+                    }
+
+                    .body{
+                        ul{
+                            list-style-position: inside;
+                            list-style-type: square;
+                            padding-left: 0;
+                            
+                            li{
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

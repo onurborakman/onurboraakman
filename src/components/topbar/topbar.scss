@@ -26,6 +26,7 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+                color: black;
 
                 @include mobile{
                     font-size: 30px;
@@ -110,10 +111,14 @@
     &.active{
         background-color: $mainColor;
         color: white;
-        .left{.itemContainer{a{
-            color: white;
-            transition: all 1s ease;
-        }}}
+        .left{
+            .itemContainer{
+                a{
+                    color: white;
+                    transition: all 1s ease;
+                }
+            }
+        }
         .hamburger{
             span{
                 &:first-child{
