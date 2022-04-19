@@ -1,6 +1,8 @@
+import { useState } from 'react';
 import './menu.scss';
 
 export default function Menu({menuOpen, setMenuOpen}) {
+    const [dropdown, setDropdown] = useState(false);
     return (
         <div className={"menu " + (menuOpen && "active")}>
             <ul>
@@ -8,8 +10,15 @@ export default function Menu({menuOpen, setMenuOpen}) {
                     <a href='#intro'>Home</a>
                 </li>
 
-                <li onClick={() => setMenuOpen(false)}>
-                    <a href='#gameable'>Gameable</a>
+                <li onClick={() => setDropdown(!dropdown)}>
+                    <a href='/#'>{dropdown === false ? '▽' : '△'}Gameable</a>
+                    {dropdown && <div className='dropdown'><ul>
+                        <li><a href='#gameable-intro'>Intro</a></li>
+                        <li><a href='#gameable-technologies'>Technologies</a></li>
+                        <li><a href='#gameable-requirements'>Requirements</a></li>
+                        <li><a href='#gameable-techicaldesign'>Technical Design</a></li>
+                        <li><a href='#gameable-faq'>FAQ</a></li>
+                    </ul></div>}
                 </li>
 
                 <li onClick={()=>setMenuOpen(false)}>

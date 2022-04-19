@@ -20,7 +20,7 @@ export const featured = [
   ];
 
   export const desktop = [
-    {
+    /*{
       id: 1,
       title: "C# Inventory Management",
       url: "https://github.com/onurborakman/portfolio/blob/master/Inventory%20Manager.zip",
@@ -37,7 +37,7 @@ export const featured = [
       title: "C# Minesweeper GUI App",
       url: "https://github.com/onurborakman/library/tree/master/C%23/C%23-MinesweeperGUIApplication",
       img: "https://images.ctfassets.net/23aumh6u8s0i/1IKVNqiLhNURzZXp652sEu/4379cfba19f0e19873af6074d3017f70/csharp"
-    }
+    }*/
   ]
 
   export const web = [
@@ -54,7 +54,7 @@ export const featured = [
       img: "https://mpng.subpng.com/20180720/pjj/kisspng-javascript-logo-html-clip-art-javascript-logo-5b5188b16dbcd8.5939232615320700654495.jpg"
     },
     
-    {
+    /*{
       id: 3,
       title: "React Music App",
       url: "https://github.com/onurborakman/cst391-react",
@@ -77,7 +77,7 @@ export const featured = [
       title: "ASP.NET Bible Verse App",
       url: "https://github.com/onurborakman/BibleVerseApp",
       img: "https://deerwalkcompware.com/training/uploads/courses/%20Programming%20in%20Dot%20Net.jpg"
-    }
+    }*/
   ]
 
   export const design = [
@@ -111,7 +111,7 @@ export const featured = [
   ]
 
   export const api = [
-    {
+    /*{
       id: 1,
       title: "Express Music API",
       url: "https://github.com/onurborakman/cst-391/tree/main/Express%20JS/projectExpress",
@@ -122,7 +122,7 @@ export const featured = [
       title: "Spring Boot Music API",
       url: "https://github.com/onurborakman/cst-391/tree/main/Spring%20Boot/SPRING",
       img: "https://image.pngaaa.com/552/2459552-middle.png"
-    }
+    }*/
   ]
   
   

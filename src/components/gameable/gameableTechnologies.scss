@@ -1,0 +1,60 @@
+@import "../../global.scss";
+.gameable-technologies {
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    position: absolute;
+    top: 25px;
+    color: black;
+  }
+
+  .footer{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    position: absolute;
+    height: 25vh;
+    img{
+        width: 17%;
+        position: relative;
+    }
+  }
+
+  .container {
+    position: absolute;
+    min-width: 100vw;
+    max-width: 100vw;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+      flex: 33%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      section {
+        ul {
+          list-style-position: inside;
+          list-style-type: disc;
+          overflow: visible;
+          padding: 0;
+          li {
+            width: 100%;
+            overflow: visible;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+}

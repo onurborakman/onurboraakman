@@ -1,6 +1,6 @@
 import {useState} from 'react';
-import './gameable.scss';
-export default function Gameable() {
+import './gameableQuestions.scss';
+export default function GameableQuestions() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
@@ -55,21 +55,8 @@ export default function Gameable() {
             : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
     }
     return(
-        <div className = 'gameable' id = 'gameable'>
-            <h1>Senior Project - Gameable</h1>
-            <div className='general-information'>
-                <h2>Gameable</h2>
-                <div>
-                    <h4>Technologies Used</h4>
-                    <ul>
-                        <li>React JS</li>
-                        <li>Spring Boot</li>
-                        <li>Heroku</li>
-                        <li>MongoDB Atlas</li>
-                    </ul>
-                </div>
-                <a href='https://gameable.herokuapp.com'>gameable.herokuapp.com</a>
-            </div>
+        <div className = 'gameable-faq' id = 'gameable-faq'>
+            <h1>Gameable - FAQ</h1>
             <div className='detailed-information'>
                     <img src="assets/arrow.png" className='arrow left' alt='' onClick={() => handleClick("left")} />
                     <div className='slider' >

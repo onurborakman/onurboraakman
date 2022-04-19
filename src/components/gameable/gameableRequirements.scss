@@ -1,0 +1,44 @@
+@import "../../global.scss";
+.gameable-requirements{
+background-color: $mainColor;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    position: absolute;
+    top: 25px;
+    color: white;
+  }
+
+  .container{
+      position: relative;
+      top: 100px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      color: white;
+
+      .nonfunctional{
+          list-style-position: inside;
+          overflow: visible;
+          padding: 0;
+          list-style-type: circle;
+      }
+
+      ul{
+          list-style-position: outside;
+          overflow: visible;
+          padding: 0;
+
+          li{
+              ul{
+                  list-style-type: circle;
+                  list-style-position: inside;
+              }
+          }
+      }
+  }
+}

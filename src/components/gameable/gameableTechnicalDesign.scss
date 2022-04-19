@@ -1,0 +1,42 @@
+@import "../../global.scss";
+.gameable-technicaldesign {
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    position: absolute;
+    top: 25px;
+    color: black;
+  }
+
+  h4{
+      position: absolute;
+      top: 60px;
+      color: black;
+  }
+
+  .container{
+      width: 75%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      button{
+          max-height: 10vh;
+          min-height: 10vh;
+          border: 5px solid white;
+          background-color: white;
+          cursor: pointer;
+          transition: all 0.5s ease-in-out;
+
+          &:hover{
+            border: 5px solid orangered;
+            border-radius: 20px 0 20px 0;
+          }
+      }
+  }
+}

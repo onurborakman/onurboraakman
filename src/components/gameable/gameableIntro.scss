@@ -1,0 +1,35 @@
+@import "../../global.scss";
+.gameable-intro{
+    background-color: $mainColor;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        position: absolute;
+        top: 25px;
+        color: white;
+
+        a{
+            color: white;
+            text-decoration: none;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .content{
+        width: 75%;
+        height: 75%;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-indent: 10%;
+        color: white;
+    }
+}

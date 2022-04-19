@@ -15,18 +15,18 @@ export default function Portfolio() {
             id: "web",
             title: "Web Apps"
         },
-        {
+        /*{
             id: "desktop",
             title: "Desktop Apps"
-        },
+        },*/
         {
             id: "design",
             title: "Designs"
         },
-        {
+        /*{
             id: "api",
             title: "APIs"
-        },
+        },*/
         {
             id: "game",
             title: "Games"
@@ -62,6 +62,7 @@ export default function Portfolio() {
     return (
         <div className='portfolio' id='otherProjects'>
             <h1>Other Projects</h1>
+            <div className='portfolio-layout'>
             <ul>
                 {list.map(item=>(
                     <PortfolioList title={item.title} active={selected === item.id} setSelected={setSelected} id={item.id}/>
@@ -76,6 +77,7 @@ export default function Portfolio() {
                         
                     </div>
                 ))}
+            </div>
             </div>
         </div>
     )

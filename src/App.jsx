@@ -4,11 +4,15 @@ import Portfolio from './components/portfolio/Portfolio';
 import Frameworks from './components/frameworks/Frameworks';
 import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
-import Gameable from './components/gameable/Gameable';
+import GameableIntro from './components/gameable/GameableIntro';
 
 import {useState} from 'react';
 
 import './app.scss';
+import GameableTechnicalDesign from './components/gameable/GameableTechnicalDesign';
+import GameableTechnologies from './components/gameable/GameableTechnologies';
+import GameableRequirements from './components/gameable/GameableRequirements';
+import GameableQuestions from './components/gameable/GameableQuestions';
 
 function App(){
     const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +22,11 @@ function App(){
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
             <div className='sections'>
                 <Intro/>
-                <Gameable/>
+                <GameableIntro/>
+                <GameableTechnologies/>
+                <GameableRequirements />
+                <GameableTechnicalDesign/>
+                <GameableQuestions/>
                 <Portfolio/>
                 <Frameworks/>
                 <Contact/>

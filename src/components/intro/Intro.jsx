@@ -25,9 +25,6 @@ export default function Intro() {
                     <h3><span ref={textRef}></span> Developer</h3>
                     <a href={resume} download="Onur Bora Akman - Resume">Download CV/Resume</a>
                 </div>
-                <a id="down-arrow" href="#portfolio">
-                    <img src='assets/down.png' alt=''/>
-                </a>
             </div>
             <div className='right'>
                 <div className="imgContainer">
