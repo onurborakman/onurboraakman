@@ -23,7 +23,7 @@ export default function Intro() {
                 <div className='wrapper'>
                     <h1>Onur Bora Akman</h1>
                     <h3><span ref={textRef}></span> Developer</h3>
-                    <a href={resume} download="Onur Bora Akman - Resume">Download CV/Resume</a>
+                    {/*<a href={resume} download="Onur Bora Akman - Resume">Download CV/Resume</a>*/}
                 </div>
             </div>
             <div className='right'>
